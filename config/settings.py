@@ -25,7 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'livraria'
+    'livraria',
+    "rest_framework",
+    "livraria",
 ]
 
 MIDDLEWARE = [
