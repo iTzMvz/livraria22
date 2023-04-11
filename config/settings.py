@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'livraria',
     "rest_framework",
+    "livraria",
 ]
 
 MIDDLEWARE = [
