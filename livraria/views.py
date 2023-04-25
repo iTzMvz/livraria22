@@ -16,11 +16,7 @@ class EditoraViewSet(ModelViewSet):
 
 class LivroViewSet(ModelViewSet):
     queryset = Livro.objects.all()
-    
-    def get_serializer_class(self):
-        if self.action in ["list", "retrieve"]:
-            return LivroDetailSerializer
-        return LivroSerializer
+    serializer_class = LivroSerializer
 
 class AutorViewSet(ModelViewSet):
     queryset = Autor.objects.all()
