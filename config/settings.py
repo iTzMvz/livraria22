@@ -21,14 +21,14 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
+    "corsheaders",
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'livraria',
     "rest_framework",
-    "corsheaders",
     "rest_framework_simplejwt",
+    'livraria',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +125,5 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
 }
+
+AUTH_USER_MODEL = "livraria.Usuario"

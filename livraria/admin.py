@@ -1,8 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Categoria, Editora, Autor, Livro
-
+from livraria.models import Autor, Categoria, Editora, Livro
 
 admin.site.register(Categoria)
 admin.site.register(Editora)
