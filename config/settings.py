@@ -1,4 +1,5 @@
 from pathlib import Path, os
+from datetime import timedelta
  
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -122,7 +123,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.DjangoModelPermissions",
+        "rest_framework.permissions.AllowAny",
     ],
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
@@ -143,4 +144,8 @@ SPECTACULAR_SETTINGS = {
     "TITLE": "Livraria API",
     "DESCRIPTION": "API para gerenciamento de livraria, incluindo endpoints e documentação.",
     "VERSION": "1.0.0",
+}
+
+SIMPLE_JWT ={
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=500),
 }
