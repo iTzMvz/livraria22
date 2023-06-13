@@ -15,12 +15,12 @@ summary = "Classes Without Boilerplate"
 
 [[package]]
 name = "django"
-version = "4.1.7"
+version = "4.2.2"
 requires_python = ">=3.8"
 summary = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 dependencies = [
-    "asgiref<4,>=3.5.2",
-    "sqlparse>=0.2.2",
+    "asgiref<4,>=3.6.0",
+    "sqlparse>=0.3.1",
     "tzdata; sys_platform == \"win32\"",
 ]
 
@@ -144,8 +144,10 @@ requires_python = ">=3.6"
 summary = "Implementation of RFC 6570 URI Templates"
 
 [metadata]
-lock_version = "4.1"
-content_hash = "sha256:1b535ec6df92b83429ab22fe7bed1f508b03f3dccfbd205a3c8f15c4f8823471"
+lock_version = "4.2"
+cross_platform = true
+groups = ["default"]
+content_hash = "sha256:883145d92e3ebac29b4bde32260cc2e8b11b1e2b2e24468edd8cfba7d8ec021c"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -156,9 +158,9 @@ content_hash = "sha256:1b535ec6df92b83429ab22fe7bed1f508b03f3dccfbd205a3c8f15c4f
     {url = "https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz", hash = "sha256:6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"},
     {url = "https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl", hash = "sha256:1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04"},
 ]
-"django 4.1.7" = [
-    {url = "https://files.pythonhosted.org/packages/89/86/59e237f7176cfc1544446914fa329fd560bb8fce46be52dd7af5dc7c54f9/Django-4.1.7-py3-none-any.whl", hash = "sha256:f2f431e75adc40039ace496ad3b9f17227022e8b11566f4b363da44c7e44761e"},
-    {url = "https://files.pythonhosted.org/packages/9f/a7/07939866241b7e8f8d3bf164b7d6ad428163723e29dd472700f8ab0e5fd5/Django-4.1.7.tar.gz", hash = "sha256:44f714b81c5f190d9d2ddad01a532fe502fa01c4cb8faf1d081f4264ed15dcd8"},
+"django 4.2.2" = [
+    {url = "https://files.pythonhosted.org/packages/5c/fa/427fbcac5633f4b88fda7953efb04db903ca7e6d9486afdbda525c4006cc/Django-4.2.2.tar.gz", hash = "sha256:2a6b6fbff5b59dd07bef10bcb019bee2ea97a30b2a656d51346596724324badf"},
+    {url = "https://files.pythonhosted.org/packages/ba/f3/7a66888bda4017198a692887bd566123732783073c1fd424db15358525fd/Django-4.2.2-py3-none-any.whl", hash = "sha256:672b3fa81e1f853bb58be1b51754108ab4ffa12a77c06db86aa8df9ed0c46fe5"},
 ]
 "django-cors-headers 3.14.0" = [
     {url = "https://files.pythonhosted.org/packages/45/f1/972b3a183192841b811e4b7496de0a31c09ae1d83a5391743c8ae0cbd86e/django_cors_headers-3.14.0-py3-none-any.whl", hash = "sha256:684180013cc7277bdd8702b80a3c5a4b3fcae4abb2bf134dceb9f5dfe300228e"},
