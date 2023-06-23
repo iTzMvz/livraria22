@@ -1,3 +1,9 @@
+# iTzMvz.mysql.pythonanywhere-services.com
+# iTzMvz$livraria
+# iTzMvz
+# giovanavidal1488
+#
+
 from pathlib import Path, os
 from datetime import timedelta
  

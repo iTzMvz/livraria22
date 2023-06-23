@@ -5,10 +5,6 @@ from django.utils.translation import gettext_lazy as _
 # Register your models here.
 from livraria.models import Autor, Categoria, Editora, Livro, Usuario
 
-admin.site.register(Categoria)
-admin.site.register(Editora)
-admin.site.register(Autor)
-admin.site.register(Livro)
 
 class UsuarioAdmin(UserAdmin):
     fieldsets = (
