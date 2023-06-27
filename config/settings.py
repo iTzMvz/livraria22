@@ -1,7 +1,7 @@
-# iTzMvz.mysql.pythonanywhere-services.com
-# iTzMvz$livraria
-# iTzMvz
-# giovanavidal1488
+# Host: iTzMvz.mysql.pythonanywhere-services.com
+# Database name: iTzMvz$livraria
+# username: iTzMvz
+# senha : 
 #
 
 from pathlib import Path, os
